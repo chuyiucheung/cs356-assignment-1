@@ -31,6 +31,7 @@ public class SimulationDriver {
 			ArrayList<Integer> a = new ArrayList<Integer>();
 			do {	
 				for (int i = 0; i < ansA.length; i++) {
+
 					int v = randA.nextInt(1 - 0 + 1);
 					if (v == 1) {
 						a.add(i);
@@ -73,9 +74,9 @@ public class SimulationDriver {
 			//System.out.println(" voted "+(a.get(0)+1)); //debug code
 			newVoteB.submission(s, a);
 		}
-		newVoteB.displayVote();
 		
 		//Displaying Result
+		newVoteB.displayVote();
 		System.out.println("****************************************************************");
 		System.out.println("Total student vote count: " + voteCountB);
 	}
