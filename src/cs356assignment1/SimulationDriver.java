@@ -1,3 +1,4 @@
+
 package cs356assignment1;
 import java.util.ArrayList;
 import java.util.Random;
@@ -44,8 +45,8 @@ public class SimulationDriver {
 		}
 		
 		//Displaying Result
-		newVoteA.displayVote();
 		System.out.println("****************************************************************");
+		newVoteA.displayVote();
 		System.out.println("Total student vote count: " + voteCountA);
 		
 		/*
@@ -76,8 +77,8 @@ public class SimulationDriver {
 		}
 		
 		//Displaying Result
-		newVoteB.displayVote();
 		System.out.println("****************************************************************");
+		newVoteB.displayVote();
 		System.out.println("Total student vote count: " + voteCountB);
 	}
 	
